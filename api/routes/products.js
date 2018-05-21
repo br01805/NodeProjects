@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/',(req,res,next) => {
     res.status(200).json({
-        message:'Handling GET requests to /Products and this should be working'}
+        message:'Handling GET requests to /Products and this should be working this time'}
     );
 
 });
